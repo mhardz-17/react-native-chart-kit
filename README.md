@@ -131,8 +131,10 @@ const data = {
     {
       data: [20, 45, 28, 80, 99, 43],
       color: (opacity = 1) => `rgba(134, 65, 244, ${opacity})`, // optional
-      strokeWidth: 2 // optional
-    }
+      strokeWidth: 2 // optional,
+     hidePointsAtIndex:[],//to hide a points on certain index of dataset
+     hidePoints:false, //set to true to hide all points on this dataset only
+    },
   ],
   legend: ["Rainy Days"] // optional
 };
